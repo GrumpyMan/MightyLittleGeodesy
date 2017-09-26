@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <PackageId>MightyLittleGeodesy</PackageId>
+    <Company>Björn Sållarp</Company>
+    <Product>MightyLittleGeodesy</Product>
+    <Description>Read my blog @ http://blog.sallarp.com</Description>
+    <Authors>Björn Sållarp</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
